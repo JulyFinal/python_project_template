@@ -1,0 +1,47 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "cytoolz"
+version = "0.12.3"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+dependencies = [
+    { name = "toolz" },
+]
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/70/d8/8df71050b214686591241a1826d2e6934b5c295c5bc57f643e4ed697f1eb/cytoolz-0.12.3.tar.gz", hash = "sha256:4503dc59f4ced53a54643272c61dc305d1dbbfbd7d6bdf296948de9f34c3a282", size = 625899 }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/7f/57/b0feabefdff4707d0b96bf75e2298ecb209ba22c2e3fd15e5230dd68441a/cytoolz-0.12.3-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:86923d823bd19ce35805953b018d436f6b862edd6a7c8b747a13d52b39ed5716", size = 419825 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/54/82/795aa9f91ee81818732b435755559857a76e16b7e435e1de434b47ce72b9/cytoolz-0.12.3-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:a3e61acfd029bfb81c2c596249b508dfd2b4f72e31b7b53b62e5fb0507dd7293", size = 401673 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/23/f3/298f32b2e374f4f716ca74a9e46b64ee1df9f160de262391f7f9bc53ecca/cytoolz-0.12.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dd728f4e6051af6af234651df49319da1d813f47894d4c3c8ab7455e01703a37", size = 2096352 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/39/44/49929b33bd0cdccc98b281e4ca11f0836b2963c6fdec8ebb7891807ed908/cytoolz-0.12.3-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:fe8c6267caa7ec67bcc37e360f0d8a26bc3bdce510b15b97f2f2e0143bdd3673", size = 2161581 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e9/77/980a8bc123490dd7112e1e068da989932b7612504355ddd25593880c3156/cytoolz-0.12.3-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:99462abd8323c52204a2a0ce62454ce8fa0f4e94b9af397945c12830de73f27e", size = 2178057 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/23/d9/2f7a4db7f92eab4b567e56cc2fc147fed1ef35f7968e44cefcbbfb366980/cytoolz-0.12.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:da125221b1fa25c690fcd030a54344cecec80074df018d906fc6a99f46c1e3a6", size = 2130881 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/85/bf/1147229198a8fc3f2090d01263234d47b5b7f8c52c20090b1cceda0929cd/cytoolz-0.12.3-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:1c18e351956f70db9e2d04ff02f28e9a41839250d3f936a4c8a1eabd1c3094d2", size = 1979975 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/5b/53/b730e9f428e74971f934bf73f0868099d325ffbf0c080a201bb16b6ab508/cytoolz-0.12.3-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:921e6d2440ac758c4945c587b1d1d9b781b72737ac0c0ca5d5e02ca1db8bded2", size = 2086861 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/24/24/df510850c1c57ad69a23a2700083cfd285faf27d16e61f0e503eec122473/cytoolz-0.12.3-cp312-cp312-musllinux_1_1_i686.whl", hash = "sha256:1651a9bd591a8326329ce1d6336f3129161a36d7061a4d5ea9e5377e033364cf", size = 1973211 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b6/ad/a6e27924a6c8048b4f1ffbd8b9b0b871642bd94d3e457aa42a629c1f667b/cytoolz-0.12.3-cp312-cp312-musllinux_1_1_ppc64le.whl", hash = "sha256:8893223b87c2782bd59f9c4bd5c7bf733edd8728b523c93efb91d7468b486528", size = 2133017 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/26/a3/f9dfb406232d0a100994a86c123259cd2ab023aa8ae325b0d9926f80091f/cytoolz-0.12.3-cp312-cp312-musllinux_1_1_s390x.whl", hash = "sha256:e4d2961644153c5ae186db964aa9f6109da81b12df0f1d3494b4e5cf2c332ee2", size = 2156771 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/fb/bf/ce2c6f6175a29c830904b23faee557de8c167255dbb2bb84e04d7cf5605a/cytoolz-0.12.3-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:71b6eb97f6695f7ba8ce69c49b707a351c5f46fd97f5aeb5f6f2fb0d6e72b887", size = 2121104 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/bf/97/95a5fb2b5db9b1ea8856741a2a94741a71cb5640112403029beb7b3ef1df/cytoolz-0.12.3-cp312-cp312-win32.whl", hash = "sha256:cee3de65584e915053412cd178729ff510ad5f8f585c21c5890e91028283518f", size = 320537 },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/0a/11/3e69585342ce4e6b7f2f6139c8aa235dab5a4fe5c76a051fe01696618bd0/cytoolz-0.12.3-cp312-cp312-win_amd64.whl", hash = "sha256:9eef0d23035fa4dcfa21e570961e86c375153a7ee605cdd11a8b088c24f707f6", size = 363238 },
+]
+
+[[package]]
+name = "python-project-template"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "cytoolz" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "cytoolz" }]
+
+[[package]]
+name = "toolz"
+version = "0.12.1"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/3e/bf/5e12db234df984f6df3c7f12f1428aa680ba4e101f63f4b8b3f9e8d2e617/toolz-0.12.1.tar.gz", hash = "sha256:ecca342664893f177a13dac0e6b41cbd8ac25a358e5f215316d43e2100224f4d", size = 66550 }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/b7/8a/d82202c9f89eab30f9fc05380daae87d617e2ad11571ab23d7c13a29bb54/toolz-0.12.1-py3-none-any.whl", hash = "sha256:d22731364c07d72eea0a0ad45bafb2c2937ab6fd38a3507bf55eae8744aa7d85", size = 56121 },
+]

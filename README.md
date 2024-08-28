@@ -12,4 +12,5 @@
 
 ## 预安装包说明
 
+- loguru pretty 日志包
 - cytoolz toolz的高性能实现, toolz 是一个纯 Python 包，大量借鉴了现代函数式语言。它旨在与其他库如 itertools 、 functools 以及第三方库无缝协作。通过内置类型如 list 和 dict 以及自定义数据结构，可以实现高性能的函数式数据分析。通过使用迭代器协议并尽可能返回迭代器，实现了低内存使用。

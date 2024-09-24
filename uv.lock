@@ -147,6 +147,18 @@ standard = [
 ]
 
 [[package]]
+name = "fastcore"
+version = "1.7.9"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+dependencies = [
+    { name = "packaging" },
+]
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/ce/26/39248ce489ed4976acd8ed09d02b1bba678b1622858ac3a896c199e1f5f7/fastcore-1.7.9.tar.gz", hash = "sha256:3565ce75c5bde8e791d5eba82556e33ee191ad1f46731086a171961e12fba405", size = 76456 }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/0f/f1/6ae1f594363df65e5b64834bf62182e43ea8d2276adccc92223dbf109259/fastcore-1.7.9-py3-none-any.whl", hash = "sha256:2f155dc75a8198116315c36b085f09fb0e3811870b112d86a151d85f5fad4bed", size = 80077 },
+]
+
+[[package]]
 name = "h11"
 version = "0.14.0"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
@@ -273,6 +285,15 @@ wheels = [
 ]
 
 [[package]]
+name = "packaging"
+version = "24.1"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/51/65/50db4dda066951078f0a96cf12f4b9ada6e4b811516bf0262c0f4f7064d4/packaging-24.1.tar.gz", hash = "sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002", size = 148788 }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl", hash = "sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124", size = 53985 },
+]
+
+[[package]]
 name = "pydantic"
 version = "2.8.2"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
@@ -355,6 +376,7 @@ source = { editable = "." }
 dependencies = [
     { name = "cytoolz" },
     { name = "fastapi", extra = ["standard"] },
+    { name = "fastcore" },
     { name = "loguru" },
 ]
 
@@ -362,6 +384,7 @@ dependencies = [
 requires-dist = [
     { name = "cytoolz", specifier = ">=0.12.3" },
     { name = "fastapi", extras = ["standard"], specifier = ">=0.112.2" },
+    { name = "fastcore", specifier = ">=1.7.9" },
     { name = "loguru", specifier = ">=0.7.2" },
 ]
 
